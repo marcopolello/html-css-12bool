@@ -10,26 +10,23 @@
   /* fine debug */
 }
 h6{
+  text-align: center;
   position: absolute;
   top: 50%;
   left:50%;
   transform: translate(-50% , -50%);
 }
-
-/* prima row */
-.col-1{
+[class*="col-"] {
   position: relative;
-  border: 1px solid black;
   /* debug */
-  min-height: 200px;
+  border: 1px solid black;
+  min-height: 150px;
   /* fine debug */
 }
-
-/* seconda row */
-.col-12{
-  position: relative;
-  border: 1px solid black;
-  /* debug */
-  min-height: 200px;
-  /* fine debug */
+.col-6, .spec{
+  padding: 3px;
+}
+.little > [class*="col-"] {
+  background-color: red;
+  border: 1px solid white;
 }
