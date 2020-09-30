@@ -1,0 +1,35 @@
+/* REGOLE GENERALI */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  /* debug */
+  background-color: pink;
+  /* fine debug */
+}
+h6{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50% , -50%);
+}
+
+/* prima row */
+.col-1{
+  position: relative;
+  border: 1px solid black;
+  /* debug */
+  min-height: 200px;
+  /* fine debug */
+}
+
+/* seconda row */
+.col-12{
+  position: relative;
+  border: 1px solid black;
+  /* debug */
+  min-height: 200px;
+  /* fine debug */
+}
