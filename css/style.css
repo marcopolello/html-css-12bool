@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 .container{
-  /* debug */
+  /* debug *
   background-color: pink;
   /* fine debug */
 }
@@ -21,6 +21,7 @@ h6{
   /* debug */
   border: 1px solid black;
   min-height: 150px;
+  background-color: pink;
   /* fine debug */
 }
 .col-6, .spec{
